@@ -1,0 +1,41 @@
+/* station5.css */
+
+/* Card */
+.card {
+    width: 288px;
+    padding: 16px;
+    background-color: #fff;
+  }
+  
+  /* Card Image */
+  .card__img-top {
+    width: 288px;
+    height: 182px;
+    margin-bottom: 8px;
+  }
+  
+  /* Card Title */
+  .card__title {
+    color: #282828;
+    font-size: 14px;
+  }
+  
+  /* Card Description */
+  .card__description {
+    color: #282828;
+    font-size: 12px;
+  }
+  
+  header {
+    background-color: #ffffff;
+  }
+  
+  body {
+    background-color: #C4C4C4;
+  }
+  
+  footer {
+    background-color: #ffffff;
+  }
+  
+  
