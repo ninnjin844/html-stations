@@ -1,0 +1,75 @@
+/* station9.css */
+
+/* Card */
+.card {
+    width: 288px;
+    padding: 16px;
+    background-color: #fff;
+  }
+  
+  /* Card Image */
+  .card__img-top {
+    width: 288px;
+    height: 182px;
+    margin-bottom: 8px;
+  }
+  
+  /* Card Title */
+  .card__title {
+    color: #282828;
+    font-size: 14px;
+  }
+  
+  /* Card Description */
+  .card__description {
+    color: #282828;
+    font-size: 12px;
+  }
+  
+  .card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header {
+    background-color: #ffffff;
+  }
+  
+  body {
+    background-color: #C4C4C4;
+  }
+  
+  footer {
+    background-color: #ffffff;
+  }
+
+  /* 1200px以上（PC） */
+@media screen and (min-width: 1200px) {
+    /* 何も変更しない */
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    /* カードのタイトルと説明の文字を小さくする */
+    .card__title {
+      font-size: 12px;
+    }
+    
+    .card__description {
+      font-size: 10px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
+  /* スマホ向けのスタイル */
+@media screen and (max-width: 320px) {
+    .card__description {
+      display: none;
+    }
+  
+    .card__title {
+      font-size: 10px;
+    }
+  }
