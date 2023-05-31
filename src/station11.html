@@ -8,7 +8,9 @@
     <script type="text/javascript">
         function getData() {
             const argumentArray = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n'];
-            return
+            const concatenatedString =argumentArray.join('');
+            document.getElementById('result').textContent = concatenatedString;
+            return concatenatedString;
         }
 
         // ↓こちらの関数は触らないこと
